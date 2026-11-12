@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #000000f7;
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+/* ===== GALAXY STARS BACKGROUND ===== */
+#stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+/* ===== AURA CURSOR ===== */
+#aura {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+        circle,
+        rgba(0,255,255,0.25),
+        rgba(120,0,255,0.15),
+        transparent 70%
+    );
+    filter: blur(25px);
+    mix-blend-mode: screen;
+    z-index: 9999;
+}
+
+/* ===== GLASS CARD ===== */
+.glass {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    box-shadow: 0 0 5px #8B5CF6
+}
+
+/* ===== NEON TEXT ===== */
+.neon {
+    text-shadow: 0 0 2px cyan, 0 0 100px blue;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+}
+
+/* ===== RGB STRIP ===== */
+.rgb-strip {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    z-index: 9998;
+    background: linear-gradient(50deg, transparent, #FF5A5A,#FF9D3D,#FFE66D,#7DFFB2,#70D6FF,#8A7CFF,#D18CFF,#F8FCFF, transparent);
+    animation: moveLine 10s linear infinite;
+}
+
+@keyframes moveLine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 70px 20px;
+}
+
+/* ===== SKILLS ===== */
+.skill-bar {
+    height: 8px;
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-bar div {
+    height: 100%;
+    background: linear-gradient(2.5deg, transparent,#8A7CFF,#D18CFF,rgb(135, 243, 243),#8A7CFF,#D18CFF,rgb(135, 243, 243), transparent);
+}
+.textlink{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
