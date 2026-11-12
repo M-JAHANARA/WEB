@@ -47,26 +47,6 @@ WEB/
 
 ---
 
-## GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=M-JAHANARA&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-JAHANARA&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=M-JAHANARA&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-
-</div>
-
----
-
 ## Technologies & Tools
 
 <div align="center">
@@ -84,10 +64,6 @@ WEB/
 <a href="https://github.com/M-JAHANARA">
   <img src="https://img.shields.io/badge/GitHub-M--JAHANARA-181717?style=for-the-badge&logo=github" />
 </a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=M-JAHANARA&label=Repository%20Profile%20Views&color=6366f1&style=flat" />
 
 <br/><br/>
 
