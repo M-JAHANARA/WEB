@@ -10,7 +10,7 @@
 
 <br/>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/M-JAHANARA/WEB?style=for-the-badge&color=6366f1)
+![GitHub repo size](https://img.shields.io/github/languages/code-size/M-JAHANARA/WEB?label=CODE%20SIZE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/M-JAHANARA/WEB?style=for-the-badge&color=0891b2)
 ![GitHub stars](https://img.shields.io/github/stars/M-JAHANARA/WEB?style=for-the-badge&color=7c3aed)
 
