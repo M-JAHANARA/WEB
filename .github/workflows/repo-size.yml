@@ -1,0 +1,41 @@
+
+name: Update Repository Size
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-size:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate repository size
+        id: size
+        run: |
+          SIZE=$(git count-objects -v | awk '/size-pack:/ {p=$2} /size:/ {u=$2} END {print (p+u)*1024}')
+          KB=$(awk "BEGIN {printf \"%.2f\", $SIZE/1024}")
+          echo "size=$KB" >> $GITHUB_OUTPUT
+
+      - name: Create size JSON
+        run: |
+          mkdir -p stats
+          echo "{\"schemaVersion\":1,\"label\":\"REPO SIZE\",\"message\":\"${{ steps.size.outputs.size }} KB\",\"color\":\"6366f1\"}" > stats/repo-size.json
+
+      - name: Commit size data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/repo-size.json
+          git diff --cached --quiet || git commit -m "Update repository size"
+          git push
