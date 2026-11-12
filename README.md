@@ -9,7 +9,8 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=818CF8&center=true&vCenter=true&width=550&lines=Welcome+to+my+WEB+Repository;Exploring+Web+Development;Building+Projects+and+Learning+Every+Day" alt="Typing SVG" />
 
 <br/>
-![repo size](https://img.shields.io/github/repo-size/M-JAHANARA/WEB?label=REPO%20SIZE&cacheSeconds=300)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/M-JAHANARA/WEB?style=for-the-badge&color=6366f1/label=REPO%20SIZE&cacheSeconds=300)
 ![GitHub last commit](https://img.shields.io/github/last-commit/M-JAHANARA/WEB?style=for-the-badge&color=0891b2)
 ![GitHub stars](https://img.shields.io/github/stars/M-JAHANARA/WEB?style=for-the-badge&color=7c3aed)
 
