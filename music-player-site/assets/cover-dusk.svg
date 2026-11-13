@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="600" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#12152C"/><stop offset=".48" stop-color="#3E367E"/><stop offset="1" stop-color="#F0786A"/></linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientTransform="matrix(150 0 0 190 300 335)" gradientUnits="userSpaceOnUse"><stop stop-color="#D2BCEB"/><stop offset=".4" stop-color="#FFAA7C"/><stop offset="1" stop-color="#FF987A" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#g)"/>
+  <circle cx="300" cy="335" r="220" fill="url(#r)"/>
+  <circle cx="300" cy="335" r="98" fill="#CAB2E7" opacity=".87"/>
+  <path d="M0 448 98 388 175 438 262 355 352 441 433 382 600 473V760H0V448Z" fill="#28254E"/>
+  <path d="m0 543 112-97 89 67 100-102 88 88 89-80 122 94v247H0V543Z" fill="#151628"/>
+  <path d="M300 428v220M270 428l30 48 30-48" stroke="#DCCDF0" stroke-opacity=".45" stroke-width="2"/>
+  <g stroke="#FFDFC2" stroke-opacity=".2"><path d="M0 596h600M0 629h600M0 662h600M0 695h600"/><path d="M60 480 210 760M155 453 275 760M440 450 335 760M535 482 395 760"/></g>
+  <text x="42" y="66" fill="#F8ECDD" font-family="Arial,sans-serif" font-size="16" letter-spacing="6">JM — SOUND IN COLOUR</text>
+  <text x="42" y="690" fill="#FFF3E5" font-family="Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-3">DUSK FM</text>
+  <text x="45" y="725" fill="#FFD2BB" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">SLOW DOWN / FEEL MORE</text>
+</svg>

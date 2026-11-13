@@ -1,0 +1,4 @@
+Place your real application release files in this folder if using local downloads.
+- Android: jahanmusic.apk
+- Windows: JahanMusic-Setup.exe
+For iOS, set the App Store product URL in script.js.

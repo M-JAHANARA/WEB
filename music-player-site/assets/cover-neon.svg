@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="25" y1="10" x2="560" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#111020"/><stop offset=".53" stop-color="#30245A"/><stop offset="1" stop-color="#10131E"/></linearGradient>
+    <linearGradient id="stroke" x1="80" y1="130" x2="530" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#D2C2ED"/><stop offset=".46" stop-color="#BA8DFF"/><stop offset="1" stop-color="#FF856C"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+  <rect width="600" height="760" fill="url(#bg)"/>
+  <circle cx="330" cy="337" r="176" stroke="#B89BFF" stroke-opacity=".22"/>
+  <circle cx="330" cy="337" r="220" stroke="#B89BFF" stroke-opacity=".13"/>
+  <circle cx="330" cy="337" r="263" stroke="#B89BFF" stroke-opacity=".08"/>
+  <path d="M-60 460 105 270 196 378 315 140 420 318 532 194 675 385" stroke="url(#stroke)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" opacity=".28" filter="url(#glow)"/>
+  <path d="M-60 460 105 270 196 378 315 140 420 318 532 194 675 385" stroke="url(#stroke)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-50 515 120 354 224 448 336 233 430 398 555 275 680 457" stroke="#CBB6E8" stroke-opacity=".65" stroke-width="1.6"/>
+  <path d="M-20 555 144 400 240 486 355 290 452 446 585 325 650 395" stroke="#B18CFF" stroke-opacity=".45" stroke-width="1"/>
+  <g fill="#CBB6E8"><circle cx="105" cy="270" r="5"/><circle cx="315" cy="140" r="5"/><circle cx="532" cy="194" r="5"/></g>
+  <g stroke="#CBB6E8" stroke-opacity=".5"><path d="M80 100v95M32 147h95M500 500v90M455 545h90"/></g>
+  <text x="42" y="68" fill="#EBE5FF" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">FREQUENCIES / 002</text>
+  <text x="42" y="675" fill="#F7F3FF" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-2">NEON SOUL</text>
+  <text x="45" y="713" fill="#BBA9F4" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">TUNE INTO YOURSELF</text>
+</svg>
