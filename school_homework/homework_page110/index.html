@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم بازگشت کالا</title>
+
+    <style>
+        body {
+            font-family: Tahoma;
+            background-color: #322d2df0;
+        }
+
+        table {
+            width: 60%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        .radius{
+            border-radius: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #eeeeee;
+            text-align: center;
+        }
+
+        input, select, textarea {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+        }
+
+        .input{
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #ffffff;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2563eb;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #2563eb;
+        }
+
+        button[type="reset"] {
+            background-color: #777;
+            border: 1px solid #777;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="action.php" method="post" enctype="multipart/form-data">
+
+        <table>
+
+            <tr>
+                <th colspan="2">
+                    <h3>فرم درخواست بازگشت کالا</h3>
+                </th>
+            </tr>
+
+            <tr>
+                <td><label for="fname">نام:</label></td>
+                <td>
+                    <input type="text" id="fname" name="fname" placeholder="محمدامین" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lname">نام خانوادگی:</label></td>
+                <td>
+                    <input type="text" id="lname" name="lname" placeholder="جهان آراء" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="order">شماره سفارش:</label></td>
+                <td>
+                    <input type="text" id="order" name="order" placeholder="260278" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="product">نام کالا:</label></td>
+                <td>
+                    <input type="text" id="product" name="product" placeholder="دانش فنی پایه"  required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="reason">علت مرجوع کالا:</label></td>
+                <td>
+                    <select id="reason" name="reason" required>
+                        <option value="" selected disabled>انتخاب کنید</option>
+                        <option value="damaged" selected>معیوب یا آسیب‌دیده</option>
+                        <option value="wrong">ارسال کالای اشتباه</option>
+                        <option value="mismatch">مغایرت با سفارش</option>
+                        <option value="dissatisfaction">عدم رضایت از کالا</option>
+                        <option value="other">سایر موارد</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="description">توضیحات:</label></td>
+                <td>
+                    <textarea id="description" name="description"
+                    rows="5" required></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="image">تصویر کالا:</label></td>
+                <td>
+                    <input class="input" type="file" id="image" name="image"
+                    accept=".jpg, .jpeg, .png, .webp" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="buttons">
+                    <button type="submit">ثبت درخواست</button>
+                    <button type="reset">پاک کردن فرم</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
