@@ -45,6 +45,7 @@ WEB/
 |:---|:---|
 | [Portfolio](./portofilo/) | Portfolio-related projects and web development work |
 | [School Homework](./school_homework/) | Educational projects, exercises, and assignments |
+| [Shop](./Shop/) | projects, exercises, and assignments |
 
 ---
 
